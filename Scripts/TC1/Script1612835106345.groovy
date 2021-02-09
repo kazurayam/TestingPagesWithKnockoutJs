@@ -25,7 +25,10 @@ println "nmValue=${WebUI.getAttribute(nmTObj, 'value')}"
 WebElement nm = WebUI.executeJavaScript("return document.getElementById('nm');", null)
 println "nm.getAttribute('value')=" + nm.getAttribute('value')
 
-// type new value into the field
+String typeName = WebUI.executeJavaScript("return document.querySelector('#nm').constructor.name;", null)
+println "typeName=${typeName}"   // HTMLInputElement
+
+// type new value into the Username field
 WebUI.setText(nmTObj, "John Doe")
 
 WebUI.delay(1)
@@ -42,6 +45,6 @@ println "nmValue=${WebUI.getAttribute(nmTObj, 'value')}"
 // verify if the value in the field was successfully updated
 assert 'John Doe' == nm2.getAttribute('value') 
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.closeBrowser()

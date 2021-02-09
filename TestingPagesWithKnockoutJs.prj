@@ -6,6 +6,7 @@
    <UUID>0c00a793-7eda-4918-91f3-8b40566fd2c7</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/TestingPagesWithKnockoutJs/TestingPagesWithKnockoutJs.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
