@@ -9,12 +9,3 @@ I developed this project to propose a solution to a question raised in the Katal
 
 This project was developed with Katalon Studio verion 7.9.1. The project should work on any versions newer than the 7.0.
 
-# Problem to solve
-
-I want to test a web page on top of the JavaScript framework [Knockout.js](https://knockoutjs.com/index.htmld). The web page uses [*data-bind="value: xxx"*](https://knockoutjs.com/documentation/value-binding.html) extensively.
-
-My target web page has a fragment like this:
-
-```
-
-```
